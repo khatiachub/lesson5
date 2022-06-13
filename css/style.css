@@ -56,9 +56,9 @@
 }
 .headerarticle{
     margin-top: 5%;
-    /* margin-right: 10%; */
-    max-width: 600px;
+    max-width: 400px;
     width: 100%;
+    margin: auto;
 }
 .newstitle{
     font-size: 20px;
@@ -184,13 +184,13 @@ body{
 }
 .trendingmaindiv{
     margin: 0 auto;
-    max-width: 1300px;
+    max-width: 1150px;
     width: 100%;
     position: relative;
 }
 /* section 2 */
 .imagesmainblock{
-    max-width: 1300px;
+    max-width: 1150px;
     width: 100%;
     margin: 0 auto;
     display: flex;
