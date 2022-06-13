@@ -1,4 +1,4 @@
-@media(max-width:1180px){
+/* @media(max-width:1180px){
     .headermaindiv{
         flex-direction: column;
         justify-content: center;
@@ -33,11 +33,9 @@
     .trendimg{
         display: none;
     }
-    /* .trending-div{
-        justify-content: space-around;
-    } */
+    
     .trendingmaindiv{
         max-width: 800px;
         width: 100%;
     }
-}
+} */
