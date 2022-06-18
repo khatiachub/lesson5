@@ -157,6 +157,12 @@
     .nav-ul{
         display: none;
     }
+    .secondpagelogo{
+        display: none;
+    }
+    .navigationdiv{
+        width: auto;
+    }
     .morenewsdiv{
         flex-direction: column;
         align-items: center;
@@ -238,18 +244,14 @@
     }
     .burgericon{
         margin-top: 30px;
+        color: rgb(77, 76, 75);
     }
     .burgeravatar{
         width: 20px;
     }
-    .burgerdiv{
-        display: flex;
-        width: 288px;
-        height: 311px;
-        padding-top: 20px;
-    }
     .burgerlogo{
         margin-left: 13%;
+        color: rgb(65, 64, 64);
     }
     .burgerul{
         height: 150px;
@@ -265,13 +267,7 @@
         top: 20px;
         color: #000;
     }
-    .burgerbar{
-        display: block;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: baseline;
-    }
+    
     .header{
         position: relative;
         height: 15px;
@@ -279,19 +275,10 @@
     .newsdiv{
         display: none;
     }
-    .burgerdivblock{
-        position: fixed;
-        top: 0px;
-        z-index: 10;
-        padding-top: 30px;
-        background-color: blueviolet;
-        transform: translateX(-180%);
-
-    }
-    .active{
+    
+    .activee{
         transform: translateX(0px);
         transition: 0.5s;
-
     }
     .burgerimg{
         margin-right: 10px;
@@ -299,19 +286,7 @@
     .burgerbaricon{
         margin-left: 10px;
         font-size: 25px;
-    }
-
-    .burgeroverlay{
-        position: fixed;
-        top: 0px;
-        left: 0px;
-        width: 100%;
-        opacity: 70%;
-        background-color: beige;
-        height: 311px;
-        z-index: 2;
-        transform: translateX(-180%);
-
+        display: block;
     }
 }
 
