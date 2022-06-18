@@ -10,6 +10,15 @@
     justify-content: center;
     align-items: center;
 }
+ .burgermaindivv{
+     display: none;
+ }
+ .burgerbaricon{
+     display: none;
+ }
+.arrow, .burgerbar{
+    display: none;
+}
 .backlinediv{
     max-width: 450px;
     width: 100%;
@@ -18,7 +27,7 @@
     margin-top: 20px;
 }
 .backdiv{
-    max-width: 600px;
+    max-width: 500px;
     width: 100%;
 }
 .backtitle{
@@ -30,12 +39,12 @@
     color: #fff;
     font-size: 20px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 30px;
 }
 .backdescr{
     font-size: 15px;
     color: #fff;
-    margin-top: 15px;
+    margin-top: 25px;
 }
 .backbutton{
     background-color: #fa6980;
@@ -48,7 +57,7 @@
     color: #fff;
     font-size: 15px;
     font-weight: bold;
-    margin-top: 25px;
+    margin-top: 35px;
     transition: all 0.5s;
 }
 .backbutton:hover{
@@ -202,11 +211,14 @@ body{
 }
 .imageselepblock{
     margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .section2h2{
     color:#202124 ;
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .imgdiv{
     max-width: 761px;
@@ -225,7 +237,6 @@ body{
     width: 100%;
     height: 200px;
     object-fit: cover;
-    
 }
 
 .bird{
@@ -242,8 +253,8 @@ body{
     position: absolute;
     font-size: 18px;
     color:#ffffff ;
-    bottom: 20%;
-    max-width: 750px;
+    bottom: 15%;
+    max-width: 550px;
     width: 100%;
     left: 3%;
 }
@@ -258,10 +269,10 @@ body{
     position: absolute;
     font-size: 25px;
     color:#fff;
-    bottom: 25%;
+    bottom: 30%;
     left: 3%;
-
 }
+
 .bridge{
     max-width: 750px;
     width: 100%;
@@ -288,7 +299,7 @@ body{
     position: relative;
 }
 .newsmaindiv{
-    max-width: 1100px;
+    max-width: 1160px;
     width: 100%;
     margin:auto;
     display: flex;
@@ -297,7 +308,7 @@ body{
     margin-top: 5%;
 }
 
-.newsrightdiv{
+.form{
     background-color: rgb(255, 255, 255);
     max-width: 600px;
     width: 100%;
@@ -317,7 +328,7 @@ body{
     margin-top: 5%;
 }
 .newsleftdiv{
-    max-width: 550px;
+    max-width: 600px;
     width: 100%;
 }
 .formdiv{
@@ -329,7 +340,8 @@ body{
 .date{
     max-width: 360px;
     width: 100%;
-    height: 40px;outline: none;
+    height: 40px;
+    outline: none;
     border: none;
     border: 1px solid #9a9c9e;
     border-radius: 5px;
@@ -351,22 +363,153 @@ body{
     margin-top: 15px;
     font-size: 13px;
 }
+.avatardiv{
+    max-width: 1160px;
+    width: 100%;
+    margin: auto;
+    border-top: 1px solid #ebeded;
+    border-bottom: 1px solid #ebeded;
+    margin-top: 20px;
+    display: flex;
+    padding: 25px;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.avatarp{
+    width: 358px;
+    font-size: 14px;
+    line-height: 1.5;
+    color:#a6adb4 ;
+}
+.avatarp2{
+    width: 337px;
+    font-size: 14px;
+    line-height: 1.5;
+    color:#a6adb4 ;
+}
+.avatardescdiv{
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+    width: 100%;
+}
+.avatardivblock{
+    display: flex;
+    flex-direction: column;
+    height:110px ;
+}
 
-
-
-
-
-
-
-
-
-
-
+.avatardesc{
+    width: 333px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.elep{
+    max-width: 1160px;
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+.elepmaindiv{
+    display: flex;
+    flex-direction: column;
+    max-width: 1160px;
+    width: 100%;
+    margin: auto;
+    border-bottom: 1px solid #d5d6d6;
+    padding-bottom: 15px;
+}
+.elephantdesc{
+    font-size: 14px;
+    max-width: 760px;
+    line-height: 1.5;
+    width: 100%;
+    color: #a6adb4;
+    margin-top: 20px;
+}
 
 
  /* footer */
 .footer{
     background-color:#a6adb4;
+    height: 210px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+.footeruldiv{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+.footerdiv{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 30px;
+    width: 100%;
+}
+.ul-div{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.footerlist{
+    color:#cbd0d3 ;
+    font-size: 13px;
+    font-weight: 900;
+    margin-top: 5px;
+}
+.footertitle{
+    font-weight: bold;
+    font-size: 13px;
+    color: #fff;
+}
+.emailinputdiv{
+    width: 263px;
+    position: relative;
+}
+.inputclass{
+    width: 263px;
+    outline: none;
+    height: 35px;
+    border: none;
+    border: 1px solid #e8e8e9;
+    border-radius: 7px;
+    background-color:#a6adb4;
+}
+.inputclass::placeholder{
+    color:#e8e8e9 ;
+}
+.sendicon{
+    position: absolute;
+    right:13px;
+    top: 7px;
+    color: #fff;
+    border: none;
+    background-color:#a6adb4 ;
+}
+.emailp{
+    color:#e8e8e9 ;
+    font-size: 11px;
+    margin-top: 10px;
+}
+.socialicons{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #fff;
+}
+.footersocialdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 500px;
+    width: 100%;
 }
 
 

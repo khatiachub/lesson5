@@ -1,4 +1,32 @@
-/* @media(max-width:1180px){
+@media(max-width:1160px) and (min-width:1025px) {
+    .trendingimage{
+        width: 285px;
+    }
+    .trendingmaindiv{
+        max-width: 1000px;
+        width: 100%;
+    }
+    .backgroundimg{
+        max-width: 550px;
+        width: 100%;
+    }
+    .imagesmainblock{
+        max-width: 1000px;
+        width: 100%;
+    }
+    .bridgeimg{
+        max-width: 600px;
+        width: 100%;
+    }
+    .avatarp{
+        width: 300px;
+    }
+    .avatarp2{
+        width: 300px;
+    }
+}
+
+@media(max-width:1024px){
     .headermaindiv{
         flex-direction: column;
         justify-content: center;
@@ -8,6 +36,7 @@
         max-width: 100%;
     }
     .morenewsdiv{
+        width: 100%;
         display: flex;
         justify-content: space-between;
     }
@@ -39,8 +68,290 @@
         width: 100%;
     }
     .trendingimage{
-        max-width: 300px;
+        max-width: 285px;
+        width: 100%;
+    }
+    .imagesmainblock{
+        flex-direction: column;
+        max-width: 600px;
+        width: 100%;
+    }
+    .road{
+        display: none;
+    }
+    .imageselepblock{
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        max-width: 600px;
         width: 100%;
     }
     
-} */
+    .bird, .elephant{
+        width: 285px;
+        height: 181px;
+        object-fit: cover;
+        margin-top: 30px;
+    }
+    .bridgetitle{
+        bottom: 30%;
+    }
+    /* secondpage */
+    .newsmaindiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+        margin-top: 0;
+    }
+    .avatardiv{
+        flex-direction: column;
+        max-width: 600px;
+        padding: 25px 0px 25px 0px;
+        
+    }
+    .avatarp{
+        width: 277px;
+    }
+    .avatarp2{
+        width: 286px;
+    }
+    .avatardescdiv{
+        margin-top: 30px;
+        width: 100%;
+    }
+    .elepmaindiv{
+        max-width: 600px;
+        width: 100%;
+    }
+
+
+    .avatardesc{
+        width: 263px;
+    }
+
+    /* footer */
+    .footerdiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer{
+        height: 317px;
+    }
+    .footersocialdiv{
+        margin-top: 10%;
+        align-items: flex-end;
+    }
+    .ul-div{
+        max-width: 500px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+}
+
+@media(max-width:640px){
+    .nav-ul{
+        display: none;
+    }
+    .morenewsdiv{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .headerarticle{
+        max-width: 290px;
+        width: 100%;
+    }
+    .backdiv{
+        width: 300px;
+    }
+    .trending-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .trendingimage{
+        margin-top: 20px;
+        max-width: 450px;
+        width: 100%;
+    }
+    .trendingmaindiv{
+        max-width: 400px;
+        width: 100%;
+    }
+    .imagesmainblock{
+        max-width: 400px;
+        width: 100%;
+    }
+    .road, .elephant, .bird{
+        display: block;
+        max-width: 400px;
+        width: 100%;
+        height:181px;
+        object-fit: cover;
+        margin-top:50px;
+    }
+    .bridge{
+        max-width: 400px;
+        width: 100%;
+    }
+    /* secondpage */
+    .imageselepblock{
+        flex-direction: column;
+    }
+    .avatardescdiv{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .avatardiv{
+        padding:25px 0 50px 0;
+        max-width: 450px;
+        width: 100%;
+    }
+    .avatarp2{
+        margin-top: 15px;
+        max-width: 450px;
+        width: 100%;
+    }
+    .avatarp{
+        max-width: 450px;
+        width: 100%;
+    }
+    
+    .footer{
+        display: none;
+    }
+    .elepmaindiv{
+        max-width: 450px;
+        width: 100%;
+    }
+    /* burger */
+    
+    .burgerlist{
+        margin-top: 31px;
+        margin-left: 20px;
+    }
+    .burgericon{
+        margin-top: 30px;
+    }
+    .burgeravatar{
+        width: 20px;
+    }
+    .burgerdiv{
+        display: flex;
+        width: 288px;
+        height: 311px;
+        padding-top: 20px;
+    }
+    .burgerlogo{
+        margin-left: 13%;
+    }
+    .burgerul{
+        height: 150px;
+    }
+    .burgericonul{
+        height: 150px;
+        margin-left: 13%;
+    }
+    .arrow{
+        display: block;
+        position: absolute;
+        left: 10px;
+        top: 20px;
+        color: #000;
+    }
+    .burgerbar{
+        display: block;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+    }
+    .header{
+        position: relative;
+        height: 15px;
+    }
+    .newsdiv{
+        display: none;
+    }
+    .burgerdivblock{
+        position: fixed;
+        top: 0px;
+        z-index: 10;
+        padding-top: 30px;
+        background-color: blueviolet;
+        transform: translateX(-180%);
+
+    }
+    .active{
+        transform: translateX(0px);
+        transition: 0.5s;
+
+    }
+    .burgerimg{
+        margin-right: 10px;
+    }
+    .burgerbaricon{
+        margin-left: 10px;
+        font-size: 25px;
+    }
+
+    .burgeroverlay{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        opacity: 70%;
+        background-color: beige;
+        height: 311px;
+        z-index: 2;
+        transform: translateX(-180%);
+
+    }
+}
+
+@media(max-width:485px){
+    .trendingimage{
+        width: 285px;
+    }
+    .trendingmaindiv{
+        width: 285px;
+    }
+    .imagesmainblock{
+        max-width: 285px;
+    }
+    .road, .elephant, .bird{
+        display: block;
+        width: 285px;
+    }
+    .bridge{
+        width: 285px;
+    }
+    /* secondpage */
+    .avatarp{
+        max-width: 330px;
+        width: 100%;
+    }
+    .avatarp2{
+        max-width: 330px;
+        width: 100%;
+    }
+    .avatardiv{
+        max-width: 330px;
+        width: 100%;
+    }
+    .elepmaindiv{
+        max-width: 328px;
+        width: 100%;
+    }
+    .formdiv{
+        max-width: 328px;
+        width: 100%;
+    }
+    
+}

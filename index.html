@@ -7,6 +7,7 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title>home</title>
             <link rel="stylesheet" type="text/css" href="css/reset.css">
+            <link rel="stylesheet" type="text/css" href="css/fonts.css">
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <link rel="stylesheet" type="text/css" href="css/responsive.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -15,25 +16,81 @@
         <body class="background">
             <header>
                 <nav class="navbar">
+                    <div class="burgerbaricon" id="burgerbar">
+                        <i class="fa-solid fa-bars-staggered"></i>
+                    </div>
                     <a class="logo" href="index.html">LOGO</a>
                     <ul class="nav-ul">
                         <li>
                             <a class="li-a" href="index.html">HOME</a>
                         </li>
                         <li>
-                            <a class="lia" href="#">DISCOVERY</a>
+                            <a class="lia" href="about.html">ABOUT</a>
                         </li>
                         <li>
-                            <a class="lia" href="#">PHOTOS</a>
+                            <a class="lia" href="#trendingsection">DISCOVERY</a>
                         </li>
                         <li>
-                            <a class="lia" href="#">CONTACT</a>
+                            <a class="lia" href="#photossection">PHOTOS</a>
                         </li>
                         <li>
-                            <img src="images/christopher-cam.svg">
+                            <a class="lia" href="#footersection">CONTACT</a>
                         </li>
                     </ul>
+                    <img src="images/christopher-cam.svg">
+
                 </nav>
+                <div class="burgermaindivv">
+                    <div class="burgeroverlay" id="burgeroverlay">
+                    </div>
+                        <div class="burgerdivblock" id="burgernav">
+                            <a class="burgerlogo logo" href="index.html">LOGO</a>
+                            <div class="burgerdiv">
+                                <ul class="burgericonul">
+                                    <li class="burgericon">
+                                        <i class="fa-solid fa-house"></i>
+                                    </li>
+                                    <li class="burgericon">
+                                        <i class="fa-solid fa-address-card"></i>
+                                    </li>
+                                    <li class="burgericon">
+                                        <i class="fa-solid fa-compass"></i>
+                                    </li>
+                                    <li class="burgericon">
+                                        <i class="fa-solid fa-image"></i>
+                                    </li>
+                                    <li class="burgericon">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </li>
+                                    <li class="burgericon">
+                                        <img class="burgeravatar" src="images/christopher-cam.svg" alt="profile">
+                                    </li>
+                                </ul>
+                                <ul class="burgerul">
+                                    <li class="burgerlist">
+                                        <a class="li-a" href="index.html">HOME</a>
+                                    </li>                            
+                                    <li class="burgerlist">
+                                        <a class="lia" href="about.html">ABOUT</a>
+                                    </li>
+                                    <li class="burgerlist">
+                                        <a class="lia" href="#trendingsection">DISCOVERY</a>
+                                    </li>
+                                    <li class="burgerlist">
+                                        <a class="lia" href="#photossection">PHOTOS</a>
+                                    </li>
+                                    <li class="burgerlist">
+                                        <a class="lia" href="#footersection">CONTACT</a>
+                                    </li>
+                                    <li class="burgerlist">
+                                        <a class="lia" href="#">PROFILE</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                </div>
+               
                 <div class="headermaindiv">
                     <div class="backgroundimg">
                         <div class="backdiv">
@@ -72,7 +129,7 @@
             </header>
             <div class="container">
                 <section>
-                    <div class="trendingmaindiv">
+                    <div class="trendingmaindiv" id="trendingsection">
                         <h2 class="trending">TRENDING</h2>
                         <div class="trending-div">
                             <div class="trendingimage">
@@ -94,14 +151,14 @@
                     </div>
                 </section>
                 <section>
-                    <div class="imagesmainblock">
+                    <div class="imagesmainblock" id="photossection">
                         <div class="imagesblock">
                             <h2 class="section2h2">HAPPENING NOW</h2>
                             <div class="bridgeimg">
                                 <img class="bridge" src="images/Background (3).png" alt="bridge">
                                 <h5 class="bridgtitle">CITY</h5>
                                 <h4 class="bridgetitle">Morbi eleifend a libero</h4>
-                                <p class="bridgedescr">Lorem ipsum dolor sit amet consectetur adipisicing elit. ab excepturi aliquam consequuntur </p>
+                                <p class="bridgedescr">Lorem ipsum dolor sit amet consectetur adipisicing elit. ab excepturi aliquam consequuntur Ac volutpat </p>
                             </div>
                             <div class="bridgeimg">
                                 <h5 class="bridgtitle">TRAVEL</h5>
@@ -111,20 +168,66 @@
                             </div>
                         </div>
                         <div class="imageselepblock">
-                            <div>
-                                <img class="elephant" src="images/161975_1024x768 (2).jpeg" alt="elephant">
-                            </div>
-                            <div>
-                                <img class="bird" src="images/roberto-nickson.jpeg" alt="bird">
-                            </div>
-                            <div>
-                                <img class="road" src="images/tom-mussak-1084.jpeg" alt="">
-                            </div>
+                            <img class="elephant" src="images/161975_1024x768 (2).jpeg" alt="elephant">
+                            <img class="bird" src="images/roberto-nickson.jpeg" alt="bird">
+                            <img class="road" src="images/tom-mussak-1084.jpeg" alt="road">
                         </div>
                     </div>
                 </section>
             </div>
             <footer class="footer">
+                <div class="footerdiv" id="footersection">
+                    <div class="ul-div">
+                        <a class="footertitle" href="index.html">LOGO</a>
+                        <div class="footeruldiv">
+                            <ul>
+                                <li class="footerlist" >
+                                    <a class="footerlist" href="index.html">Home</a>
+                                </li>
+                                <li class="footerlist">
+                                    <a class="footerlist" href="#trendingsection">Photos</a>
+                                </li>
+                                <li class="footerlist">
+                                    <a class="footerlist" href="#photossection">Discovery</a>
+                                </li>
+                                <li class="footerlist">
+                                    <a class="footerlist footer-li" href="#footersection">Contact</a>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li class="footerlist">About</li>
+                                <li class="footerlist">Help</li>
+                                <li class="footerlist">Terms</li>
+                                <li class="footerlist">Guidlines</li>
+                            </ul>
+                            <ul>
+                                <li class="footerlist">Testimonials</li>
+                                <li class="footerlist">Advertise</li>
+                                <li class="footerlist">Integrations</li>
+                                <li class="footerlist">Careers</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footersocialdiv">
+                        <div class="emailinputdiv">
+                            <form action="#">
+                                <input type="email" class="inputclass" placeholder="Email">
+                            </form>
+                            <button class="sendicon" type="submit">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </button>
+                            <p class="emailp">Stay in touch with us for the freshest products!</p>
+        
+                        </div>
+                        <div class="socialicons">
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-twitter"></i>
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-solid fa-earth-americas"></i>
+                        </div>
+                    </div>
+                </div>
             </footer>
+            <script src="script.js"></script>
         </body>
 </html>
