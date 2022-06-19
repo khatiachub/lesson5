@@ -332,19 +332,19 @@
 }
 @media(min-height:780px){
     .burgerdiv{
-        height:auto;
+        height:600px;
     }
     .burgerfooter{
-        height: auto;
+        height: 30vh;
     }
     .burgerlist{
-        margin-top: 40px;
+        margin-top: 36px;
     }
     .burgericon{
-        margin-top: 40px;
+        margin-top: 36px;
     }
     .burgeroverlay{
-        height: auto;
+        height: 700px;
     }
 
 }
