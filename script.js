@@ -14,3 +14,15 @@ xicon.addEventListener('click', function(){
     navigation.classList.remove('activee');
     overlay.classList.remove('activee');
 })
+
+let swiper = new Swiper(".trending-div", {
+    spaceBetween: 32,
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: "auto",
+    loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+});

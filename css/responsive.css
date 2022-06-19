@@ -330,9 +330,9 @@
     }
     
 }
-@media(min-height:780px){
+@media(min-height:750px){
     .burgerdiv{
-        height:600px;
+        height:500px;
     }
     .burgerfooter{
         height: 30vh;
@@ -343,8 +343,12 @@
     .burgericon{
         margin-top: 36px;
     }
-    .burgeroverlay{
-        height: 700px;
+    .xicon{
+        margin-left: 100px;
     }
-
+}
+@media(min-height:620px){
+    .burgerdiv{
+        height: 400px;
+    }
 }

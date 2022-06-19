@@ -35,7 +35,7 @@
 .burgerfooter{
     background-color: #000;
     opacity:0.23000000417232513 ;
-    height: 40vh;
+    height: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -44,7 +44,7 @@
 .burgerdiv{
     display: flex;
     padding-top: 20px;
-    height: 400px;
+    height: 350px;
 }
 
 .headerli{
@@ -72,7 +72,7 @@
     opacity:0.23000000417232513 ;
     left: 0px;
     width: 100%;
-    height: 660px;
+    height: 100%;
     z-index: 2;
 }
  .xicon{
@@ -230,14 +230,49 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
-.trending-title::after{
-    content: '>';
+.nextbut{
     position: absolute;
     right: 1px;
     top: 10px;
 }
-.trending-title::before{
-    content: '<';
+
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next, .arrow-left, .arrow-right {
+    top: initial;
+    bottom: 0;
+    width: initial;
+    height: initial;
+    background-color: var(--text-lighter);
+    border: 1px solid var(--secondary-color);
+    padding: 6px;
+    border-radius: .5rem;
+    font-size: 1.5rem;
+    color: var(--primary-color)
+}
+.swiper-button-prev{
+    left: calc(50% - 3rem)
+}
+.swiper-button-next {
+    right: calc(50% - 3rem);
+}
+
+
+
+
+
+
+
+
+
+
+
+.prevbut{
     position: absolute;
     right: 30px;
     top: 10px;
