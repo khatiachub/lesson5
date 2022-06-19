@@ -330,3 +330,11 @@
     }
     
 }
+@media(min-height:780px){
+    .burgerdiv{
+        height: 450px;
+    }
+    .burgerfooter{
+        height: 45vh;
+    }
+}
