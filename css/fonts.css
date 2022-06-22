@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Source Sans Pro';
+    src: url('../fonts/demo.html');
+    src: url('../fonts/SourceSansPro-BlackItalic.ttf') format('embedded-opentype'),
+        url('../fonts/SourceSansPro-BlackItalic.woff2') format('woff2'),
+        url('../fonts/SourceSansPro-BlackItalic.woff') format('woff'),
+        url('../fonts/SourceSansPro-BlackItalic.eot') format('truetype'),
+        url('../fonts/SourceSansPro-BlackItalic.svg') format('svg');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}

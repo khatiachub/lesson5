@@ -5,10 +5,17 @@
             <meta charset="UTF-8">
             <meta http-equiv="X-UA-Compatible" content="IE=edge">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta property="og:url"content="https://github.com/khatiachub/lesson5" />
+            <meta property="og:type"content="website" />
+            <meta property="og:title"content="tour" />
+            <meta property="og:description"content="We've spent over 35 years crafting and refining tour itineraries full of must-see sites and off-the-beaten path experiences you won't find on other tours. But we've also learned that an international tour is more than just a visit to a World Heritage Site." />
+            <meta property="og:image"content="images/a.jpg" />
+            <meta name="description" content="We offer options for every budget and travel style. Of course, our specialty will always be small group, escorted tours to incredible international destinations. But we also offer our same great value in larger groups with our line of Value Vacations">
+            <meta name="keywords" content="travel, worldwide beautiful places, sun, sea.">
+            <meta name="author" content="Khatia Chubinidze">
             <title>home</title>
             <link rel="stylesheet" type="text/css" href="css/reset.css">
             <link rel="stylesheet" type="text/css" href="css/fonts.css">
-            <link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css">
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <link rel="stylesheet" type="text/css" href="css/responsive.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -27,7 +34,7 @@
                             <a class="lia" href="index.html">HOME</a>
                         </li>
                         <li class="headerli">
-                            <a class="lia" href="about.html">ABOUT</a>
+                            <a class="lia" href="#teamcontainer">ABOUT</a>
                         </li>
                         <li class="headerli">
                             <a class="lia" href="#trendingsection">DISCOVERY</a>
@@ -112,7 +119,6 @@
                                 </div>
                             </div>
                         </div>
-               
                 <div class="headermaindiv">
                     <div class="backgroundimg">
                         <div class="backdiv">
@@ -149,7 +155,6 @@
                     </div>
                 </div>
             </header>
-            <div class="container">
                 <section>
                     <div class="trendingmaindiv" id="trendingsection">
                         <h2 class="trending">TRENDING</h2>
@@ -173,8 +178,8 @@
                                 <!-- <img src="images/Image (2).jpeg" alt=""> -->
                             </div>
                         </div>
-                        <i class="fa-solid fa-chevron-left swiper-button-next"></i>
-                        <i class="fa-solid fa-angle-right swiper-button-prev"></i>
+                        <i class="fa-solid fa-angle-right nextbut"></i>
+                        <i class="fa-solid fa-chevron-left prevbut"></i>
                     </div>
                 </section>
                 <section>
@@ -201,7 +206,12 @@
                         </div>
                     </div>
                 </section>
-            </div>
+                <section>
+                    <div class="teamtitlediv" id="teamcontainer">
+                        <h2 class="teamtitle">Meet our team</h2>
+                        <div class="touchdiv"><a class="touchtitle" href="about.html">Get in touch</a></div>
+                    </div>
+                </section>
             <footer class="footer">
                 <div class="footerdiv" id="footersection">
                     <div class="ul-div">
@@ -256,6 +266,6 @@
                 </div>
             </footer>
             <script src="script.js"></script>
-            <script src="swiper-bundle.min.js"></script>
+            <script src="team.js"></script>
         </body>
 </html>

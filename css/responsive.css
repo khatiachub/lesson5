@@ -150,7 +150,6 @@
         width: 100%;
         justify-content: space-between;
     }
-
 }
 
 @media(max-width:640px){
@@ -288,6 +287,7 @@
         font-size: 25px;
         display: block;
     }
+    
 }
 
 @media(max-width:485px){
@@ -328,7 +328,10 @@
         max-width: 328px;
         width: 100%;
     }
-    
+    .usersinfodiv{
+        width: 270px;
+        margin-left: 20px;
+    }
 }
 @media(min-height:750px){
     .burgerdiv{
