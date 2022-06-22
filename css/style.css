@@ -253,6 +253,7 @@ body{
     font-size: 25px;
     display: inline;
     vertical-align: middle;
+    color: rgb(56, 55, 55);
 }
 .nav-ul{
     max-width: 500px;
