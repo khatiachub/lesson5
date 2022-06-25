@@ -15,3 +15,19 @@ xicon.addEventListener('click', function(){
     overlay.classList.remove('activee');
 })
 
+$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        641:{
+            items:2
+        },
+        1025:{
+            items:3
+        }
+    }
+})

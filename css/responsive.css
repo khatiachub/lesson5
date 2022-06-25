@@ -59,9 +59,6 @@
         max-width: 600px;
         width: 100%;
     }
-    .trendimg{
-        display: none;
-    }
     
     .trendingmaindiv{
         max-width: 600px;
@@ -181,7 +178,7 @@
     }
     .trendingimage{
         margin-top: 20px;
-        max-width: 450px;
+        max-width: 380px;
         width: 100%;
     }
     .trendingmaindiv{
