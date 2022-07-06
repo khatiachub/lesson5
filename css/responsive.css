@@ -201,6 +201,25 @@
         max-width: 400px;
         width: 100%;
     }
+    .bridgetitle{
+        font-size: 20px;
+    }
+    .bridgedescr{
+        max-width: 460px;
+        width: 100%;
+    }
+    .burgernavli{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 150px;
+    }
+    .burgernavli{
+
+    }
     /* secondpage */
     .imageselepblock{
         flex-direction: column;
