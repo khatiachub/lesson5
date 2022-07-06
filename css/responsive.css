@@ -178,7 +178,7 @@
     }
     .trendingimage{
         margin-top: 20px;
-        max-width: 380px;
+        max-width: 390px;
         width: 100%;
     }
     .trendingmaindiv{
@@ -207,6 +207,7 @@
     .bridgedescr{
         max-width: 460px;
         width: 100%;
+         bottom: 12%;
     }
     
     .burgernavli{
@@ -313,8 +314,10 @@
         width: 285px;
     }
     .bridge{
-        width: 285px;
+        max-width: 300px;
+        width: 100%;
     }
+    
     /* secondpage */
     .avatarp{
         max-width: 330px;
