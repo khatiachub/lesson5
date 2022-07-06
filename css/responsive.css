@@ -65,7 +65,7 @@
         width: 100%;
     }
     .trendingimage{
-        max-width: 285px;
+        max-width: 320px;
         width: 100%;
     }
     .imagesmainblock{
@@ -208,17 +208,9 @@
         max-width: 460px;
         width: 100%;
     }
+    
     .burgernavli{
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: justify;
-            -ms-flex-pack: justify;
-                justify-content: space-between;
-        width: 150px;
-    }
-    .burgernavli{
-
+        width: 170px;
     }
     /* secondpage */
     .imageselepblock{
@@ -308,7 +300,7 @@
 
 @media(max-width:485px){
     .trendingimage{
-        width: 285px;
+        width: 320px;
     }
     .trendingmaindiv{
         width: 285px;
