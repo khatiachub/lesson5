@@ -15,7 +15,7 @@
         width: 100%;
     }
     .bridgeimg{
-        max-width: 600px;
+        max-width: 650px;
         width: 100%;
     }
     .avatarp{
@@ -65,7 +65,7 @@
         width: 100%;
     }
     .trendingimage{
-        max-width: 320px;
+        max-width: 285px;
         width: 100%;
     }
     .imagesmainblock{
@@ -300,7 +300,7 @@
 
 @media(max-width:485px){
     .trendingimage{
-        width: 320px;
+        width: 285px;
     }
     .trendingmaindiv{
         width: 285px;
