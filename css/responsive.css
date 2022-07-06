@@ -301,7 +301,7 @@
 
 @media(max-width:485px){
     .trendingimage{
-        width: 285px;
+        width:310px;
     }
     .trendingmaindiv{
         width: 285px;
@@ -314,7 +314,7 @@
         width: 285px;
     }
     .bridge{
-        max-width: 300px;
+        max-width: 310px;
         width: 100%;
     }
     
