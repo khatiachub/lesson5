@@ -329,7 +329,6 @@ body{
     display: flex;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
-            justify-content: space-between;
 }
 .trendingmaindiv{
     margin: 0 auto;
@@ -356,7 +355,7 @@ body{
     margin-top: 5%;
 }
 .imageselepblock{
-    margin-top: 16vh;
+    margin-top: 25.8vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -370,6 +369,8 @@ body{
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+            max-width: 360px;
+            width: 100%;
 }
 .section2h2{
     color:#202124 ;
@@ -391,20 +392,26 @@ body{
 .elephant{
     max-width: 360px;
     width: 100%;
-    height: 200px;
     -o-object-fit: cover;
        object-fit: cover;
+       height: 245px;
 }
 
 .bird{
     margin-top: 30%;
     max-width: 360px;
     width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 245px;
 }
 .road{
     margin-top: 30%;
     max-width: 360px;
     width: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    height: 245px;
 }
 .bridgeimg{
     position: relative;

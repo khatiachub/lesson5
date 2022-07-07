@@ -1,6 +1,6 @@
 @media(max-width:1160px) and (min-width:1025px) {
     .trendingimage{
-        width: 285px;
+        width: 330px;
     }
     .trendingmaindiv{
         max-width: 1000px;
@@ -15,7 +15,7 @@
         width: 100%;
     }
     .bridgeimg{
-        max-width: 650px;
+        max-width: 600px;
         width: 100%;
     }
     .avatarp{
@@ -83,6 +83,7 @@
         justify-content: space-between;
         max-width: 600px;
         width: 100%;
+        margin-top: 5px;
     }
     
     .bird, .elephant{
@@ -178,7 +179,7 @@
     }
     .trendingimage{
         margin-top: 20px;
-        max-width: 390px;
+        max-width: 395px;
         width: 100%;
     }
     .trendingmaindiv{
@@ -205,7 +206,7 @@
         font-size: 20px;
     }
     .bridgedescr{
-        max-width: 460px;
+        max-width: 390px;
         width: 100%;
          bottom: 12%;
     }
@@ -301,21 +302,26 @@
 
 @media(max-width:485px){
     .trendingimage{
-        width:310px;
+        width:100%;
     }
     .trendingmaindiv{
-        width: 285px;
+        max-width: 290px;
+        width: 100%;
     }
     .imagesmainblock{
-        max-width: 285px;
+        max-width: 290px;
+        width: 100%;
     }
     .road, .elephant, .bird{
         display: block;
-        width: 285px;
+        max-width: 290px;
+        width: 100%;
     }
     .bridge{
-        max-width: 310px;
         width: 100%;
+    }
+    .bridgedescr{
+        width: 270px;
     }
     
     /* secondpage */
