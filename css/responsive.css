@@ -24,6 +24,9 @@
     .avatarp2{
         width: 300px;
     }
+    .imageselepblock{
+        margin-top: 12.5vh;
+    }
 }
 
 @media(max-width:1024px){

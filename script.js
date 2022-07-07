@@ -17,7 +17,7 @@ xicon.addEventListener('click', function(){
 
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:10,
+    margin:35,
     nav:true,
     responsive:{
         0:{

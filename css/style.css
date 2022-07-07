@@ -351,11 +351,9 @@ body{
         -ms-flex-align: center;
             align-items: center;
 }
-.imagesblock{
-    margin-top: 5%;
-}
+
 .imageselepblock{
-    margin-top: 25.8vh;
+    margin-top:11vh;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -394,27 +392,30 @@ body{
     width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
-       height: 245px;
+       height: 250px;
 }
 
 .bird{
-    margin-top: 30%;
+    margin-top: 28%;
     max-width: 360px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    height: 245px;
+    height: 250px;
 }
 .road{
-    margin-top: 30%;
+    margin-top: 28%;
     max-width: 360px;
     width: 100%;
     -o-object-fit: cover;
     object-fit: cover;
-    height: 245px;
+    height: 250px;
 }
 .bridgeimg{
     position: relative;
+}
+.castlesimg{
+    margin-bottom: 40px;
 }
 
 .bridgedescr{
